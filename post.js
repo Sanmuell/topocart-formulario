@@ -14,7 +14,7 @@ function fazPost(url, body) {
 
 function cadastrar() {
     event.preventDefault()
-    let url = "/novo.json"
+    let url = "/test.json"
 
     let email = document.getElementById("email").value
     let senha = document.getElementById("senha").value
